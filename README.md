@@ -13,12 +13,13 @@
 - Step 6：git clone URL，URL就是刚才复制的地址
       将代码检出到本地
 - Step 7：进入到项目目录，如MyProject，cd MyProject
-        执行 git status，查看工作区/项目 的状态，若当前有修改，则会给出提示
-      比如：
-        在当前目录下添加了一个文件test
-        执行 git status，会提示说test未被跟踪
-        将test添加为跟踪状态 git add test
-        再次执行 git status，则提示说当前工作去是干净的
+      执行 git status，查看工作区/项目 的状态，若当前有修改，则会给出提示
+
+ 比如：
+     在当前目录下添加了一个文件test
+     执行 git status，会提示说test未被跟踪
+     将test添加为跟踪状态 git add test
+     再次执行 git status，则提示说当前工作去是干净的
 - Step 8：提交修改的代码，到本地：git commit
       弹出一个变更说明，需要添加一些修改信息，以便日后查看时，可以清楚的直到：谁在何时何地做了什么修改动作。
 - Step 9：提交修改的代码，到github，即服务端：git push
