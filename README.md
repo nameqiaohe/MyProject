@@ -24,3 +24,24 @@
       弹出一个变更说明，需要添加一些修改信息，以便日后查看时，可以清楚的直到：谁在何时何地做了什么修改动作。
 - Step 9：提交修改的代码，到github，即服务端：git push
       会提示输入 用户名、密码
+
+当两个或者多个人同时对某一文件做了修改，并提交，会出现冲突
+例如：
+      A对test做了如下修改：
+            这个苹果不好吃
+            git add test
+            git commit
+            git push
+      B对test也作了修改，如下：
+            这个苹果很好吃
+            git add test
+            git commit
+            git push
+      此时会出现冲突（错误）。
+解决冲突：
+      Step 1：git pull将远程仓库中的代码拉到/更新到本地
+      Step 2：发现test中保留了两次修改的内容，由我们来决定 保留哪一种修改，删除另一种修改
+      Step 3：git add test
+            git commit
+            git push
+            
