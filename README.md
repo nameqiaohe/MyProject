@@ -40,4 +40,6 @@
 ##### 解决冲突： 
 	Step 1：git pull将远程仓库中的代码拉到/更新到本地 
 	Step 2：发现test中保留了两次修改的内容，由我们来决定 保留哪一种修改，删除另一种修改
-	Step 3：git add test git commit git push
+	Step 3：git add test 
+		git commit 
+		git push
