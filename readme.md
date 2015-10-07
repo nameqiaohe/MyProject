@@ -1,6 +1,6 @@
 # 练习使用GitHub
 ---------------------------
-## 参考http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743256916071d599b3aed534aaab22a0db6c4e07fd0000
+### 参考http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743256916071d599b3aed534aaab22a0db6c4e07fd0000
 
 - Step 1：创建一个目录，mkdir protest
 	- 进入这个目录，cd protest
@@ -26,6 +26,7 @@
 	或者 git log --pretty=oneline （一行显示）
 - 记录中最近的一次提交 在最上边
 - log中那一长串 数字+字母，是commit id（版本号）
+
 ### 回退 git reset
 	git reset --hard HEAD
 - 回到上一版本
