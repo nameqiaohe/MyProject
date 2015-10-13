@@ -40,8 +40,8 @@
 - Step 2：输入仓库名（给仓库起一个名字），其他默认，然后点击Create repository
     - 这就在GitHub上创建了一个仓库
     - 接下GitHub会有一些提示信息，如下
-### 
-    …or create a new repository on the command line
+###
+	…or create a new repository on the command line
 
         echo # protest >> README.md
         git init
@@ -54,17 +54,19 @@
 
         git remote add origin https://github.com/nameqiaohe/protest.git
         git push -u origin master
-
+    
     …or import code from another repository
-
+    
         You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
-
 - Step 3：接下来将本地仓库提交到GitHub上，在本地仓库目录下执行 
-
-    （1）git remote add origin https://github.com/nameqiaohe/protest.git
+	- （1）git remote add origin https://github.com/nameqiaohe/protest.git
 添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
-接下来，就可以把本地库的所有内容推送到远程库上：
-    （2）git push -u origin master
-把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。
-由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
-推送成功后，可以立刻在GitHub页面中看到远程库的内容已经和本地一模一样。
+
+	接下来，就可以把本地库的所有内容推送到远程库上：
+	- （2）git push -u origin master
+
+	把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。
+
+	由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
+
+	推送成功后，可以立刻在GitHub页面中看到远程库的内容已经和本地一模一样。
