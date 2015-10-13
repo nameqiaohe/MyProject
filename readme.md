@@ -41,7 +41,7 @@
     - 这就在GitHub上创建了一个仓库
     - 接下GitHub会有一些提示信息，如下
 ### 
-	…or create a new repository on the command line
+    …or create a new repository on the command line
 
         echo # protest >> README.md
         git init
